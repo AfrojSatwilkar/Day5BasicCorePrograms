@@ -21,7 +21,7 @@ public class FlipCoin {
         for (int i=0; i<userInput; i++){
             Random num = new Random();
             flipCoin = num.nextInt(2);
-            if (flipCoin==1.0){
+            if (flipCoin == 1.0){
                 countHead++;
             }
             else {
